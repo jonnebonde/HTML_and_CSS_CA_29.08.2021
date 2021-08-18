@@ -1,3 +1,19 @@
+html {
+    background-image: url(../images/Homepage_background_min.jpg);
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+header {
+    
+    border-radius: 0 8px 8px;
+    overflow-x: hidden;
+    width: 100%;
+}
 .mainlogo {
     display: flex;
     justify-content: center;
@@ -7,16 +23,17 @@
 .mainlogo_img {
     width: 30%;
     max-width: 350px;
-    height: auto;
+    max-height: 180px;
+    height: fit-content;
 }
 nav {
     display: flex;
     justify-content: center;
     background-color: #0A3641;
     border-radius: 7px;
-    padding: 4px;
-    margin: 1vw 15vw 1vw 15vw;
-    max-width: 100%;
+    padding: 2px;
+    margin: 1vw 0vw 0vw 0vw;
+    
     
 }
 
@@ -24,10 +41,12 @@ nav {
     text-decoration: underline;
 }
 .navbar {
-   list-style: none;
-   margin: 0 10vw 0 0;
-   padding: 0;
-   text-align: center;
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin: 0 4vw 0 0;
+    padding: 0;
+   
    
 }
 
