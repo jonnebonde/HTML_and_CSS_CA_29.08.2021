@@ -75,3 +75,8 @@ button {
     cursor: pointer ;
     margin-top: 10px;
 }
+h1 {
+    display: flex;
+    justify-content: center;
+    
+}
