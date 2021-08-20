@@ -4,6 +4,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -34,7 +35,6 @@ nav {
     padding: 2px;
     margin: 1vw 0vw 0vw 0vw;
     
-    
 }
 
 .active {
@@ -46,8 +46,7 @@ nav {
     list-style: none;
     margin: 0 4vw 0 0;
     padding: 0;
-   
-   
+      
 }
 
 .navbar li {
@@ -83,10 +82,17 @@ h1 {
 
 .featured_products {
     display: grid;
-    
+    grid-gap: 40px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.product_img {
+    display: block;
+    margin: auto;
 
 }
 
-.product_1 {
-   
+.product_container {
+    text-align: center;
 }
