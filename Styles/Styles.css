@@ -79,26 +79,31 @@ button {
     margin-top: 10px;
 }
 h1 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    color: #0A3641;
     
 }
-h2 {
+.adjectives {
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
+    color: #DDDDDD;
 }
 .featured_products {
     display: grid;
-    grid-gap: 2vw;
-    grid-template-columns: repeat(3, 350px);
+    grid-row-gap: 40px; 
     grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 21vw);
+   
     justify-content: center;
+    max-width: 100%;
 
    
 }
 .product_container {
     text-align: center;
-    max-width: 320px;
-    max-height: 300px;
+    max-width: 280px;
+    max-height: 260px;
     margin-left: 1vw;
 
 }   
@@ -107,7 +112,7 @@ h2 {
     display: block;
     margin-left: 25px;
     padding: 0;
-    max-height: 80%;
+    max-width: 80%;
     border-radius: 5px;
     border: solid #0A3641 2px;
 
