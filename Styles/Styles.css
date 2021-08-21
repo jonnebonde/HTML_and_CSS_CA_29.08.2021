@@ -19,15 +19,15 @@ header {
     justify-content: center;
     
 }
-a {
-    text-decoration: none;
-}
 
 .mainlogo_img {
     width: 30%;
     max-width: 350px;
     max-height: 180px;
     
+}
+.hamburger-menu {
+    display: none;
 }
 nav {
     display: flex;
@@ -37,10 +37,6 @@ nav {
     padding: 2px;
     margin: 1vw 0vw 0vw 0vw;
     
-}
-
-.active {
-    text-decoration: underline;
 }
 
 .navbar {
@@ -64,6 +60,9 @@ nav {
     color: #DDDDDD;
 
 }
+.active {
+    t
+}
 
 input {
     border: none;
@@ -71,34 +70,28 @@ input {
     margin-top: 10px;
     
 }
+
 button {
     color: #DDDDDD;
     background-color: #0A3641;
     border: none;
-    cursor: pointer ;
+    cursor: pointer;
     margin-top: 10px;
 }
+
 h1 {
     text-align: center;
     color: #0A3641;
     
 }
-.adjectives {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    color: #DDDDDD;
-}
+
 .featured_products {
     display: grid;
     grid-row-gap: 40px; 
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 21vw);
-   
     justify-content: center;
-    max-width: 100%;
-
-   
+    
 }
 .product_container {
     text-align: center;
@@ -117,6 +110,14 @@ h1 {
     border: solid #0A3641 2px;
 
 }
+.adjectives {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #DDDDDD;
+    margin-top: 2vw;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -133,5 +134,8 @@ footer {
 }
 
 .social__icons {
-    
+
 }
+
+
+@media ()
