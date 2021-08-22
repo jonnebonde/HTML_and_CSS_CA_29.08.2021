@@ -11,6 +11,10 @@ html body{
     
   }
 
+h1 section{
+      position: absolute;
+      z-index: -10;
+  }
 .mainlogo {
     display: flex;
     justify-content: center;
@@ -43,6 +47,7 @@ html body{
     padding: 10px;
     color: #DDDDDD;
     text-decoration: none;
+    position: relative;
 }
 
 label {
@@ -54,6 +59,7 @@ label {
 }
 #toggle {
     display: none;
+
 }
 
 .icons_cta {
@@ -87,6 +93,7 @@ label {
 }
 .menu a:hover {
     border-bottom: 2px solid;
+    
 }
 
 .fa:hover {
@@ -211,8 +218,9 @@ footer {
 @media only screen and (max-width: 759px) {
     .nav {
         display: flex;
-        justify-content:flex-end;
+        justify-content:center;
         background-color: #0A3641;
+        
         
     }
 
@@ -228,19 +236,22 @@ footer {
 
     }
     label {
+        font-size: 5vw;
         display: flex ;
         cursor: pointer;
-        padding: 5px 10px 5px 100vw;
-        margin: 0 0 10px 0 ;
+        width: 100%;
+        margin: 0;
         position:absolute;
         background-color: #0A3641;
+        z-index: 10;
+        
  
     }
     .menu {
         text-align: center;
         display: none;
-        overflow: hidden;
         margin-top: 50px;
+        z-index: 999;
     
     }
 
@@ -250,10 +261,12 @@ footer {
         color:#DDDDDD;
         
         
+        
     }
     #toggle:checked + .menu {
         display: flex;
         flex-direction: column;
+        
 
     }
     
@@ -264,7 +277,7 @@ footer {
     .featured_products {
         display: grid;
         grid-gap: 20px; 
-        grid-template-rows: repeat(12, 200px);
+        grid-template-rows: repeat(6, 200px);
         grid-template-columns: repeat(1, 200px);
         justify-content: center;
     }
