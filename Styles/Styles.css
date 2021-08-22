@@ -1,24 +1,16 @@
-html {
+html body{
     background-image: url(../images/Homepage_background_min.jpg);
     background-color: whitesmoke;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100%;
+    max-width: 100%;
     margin: 0;
     padding: 0;
   }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    overflow-x: hidden;
-    width: 100%;
-}
+  
 .mainlogo {
     display: flex;
     justify-content: center;
@@ -31,28 +23,39 @@ header {
     max-height: 180px;
     
 }
-.hamburger-menu {
-    display: none;
-}
-
-nav {
+.nav {
     display: flex;
     justify-content: center;
     background-color: #0A3641;
     padding: 2px;
-    margin: 1vw 0vw 0vw 0vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
     
 }
+.menu {
+    margin: 10px 0;
+    text-align: left;
+}
+.menu a{
+    padding: 10px;
+    color: #DDDDDD;
+    text-decoration: none;
+    
+}
 
-.navbar {
+label {
+    margin: 10px;
+    font-size: 1.5em;
+    color: #DDDDDD;
+    display: none;
+    
+}
+#toggle {
+    display: none;
+}
+
+.icons_cta {
     display: flex;
-    justify-content: left;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-      
 }
 
 .search_cta {
@@ -62,10 +65,7 @@ nav {
 .cart_cta {
     font-size: 1.2rem;
 }
-.navbar li {
-    display: inline;
-    
-}
+
 .fa {
     font-size: 1.3rem;
     padding-bottom: 9px;
@@ -78,18 +78,12 @@ nav {
     padding-bottom: 10px;
 
 }
-.navbar a {
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-    color: #DDDDDD;
 
-}
 .active {
     border-bottom: 2px solid #DDDDDD;
     
 }
-li a:hover {
+.nav a:hover {
     border-bottom: 2px solid;
 }
 
@@ -104,7 +98,9 @@ li a:hover {
     border-bottom:  2px solid #DDDDDD;
 
 }
-
+form {
+    margin-left: 20px;
+}
 input {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1rem;
@@ -193,4 +189,37 @@ footer {
     margin-bottom: 20px;
   }
 
-@media ()
+@media only screen and (max-width: 1000px) {
+    .nav {
+        display: flex;
+        justify-content: space-between
+    }
+    
+    label {
+        display: block ;
+        cursor: pointer;
+        float: left;
+        position: relative;
+    }
+    .menu {
+        text-align: center;
+        width: 10%;
+        display: none;
+        z-index: ;
+    }
+
+    .menu a {
+        display: block;
+        margin-right: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .featured_products {
+        display: grid;
+    grid-gap: 40px; 
+    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    }
+}
