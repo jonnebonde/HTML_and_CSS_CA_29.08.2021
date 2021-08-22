@@ -127,11 +127,8 @@ h1 {
     text-align: center;
     color: #0A3641;
     
-    
 }
-main {
-    z-index: 1;
-}
+
 .featured_products {
     display: grid;
     grid-gap: 40px; 
@@ -162,6 +159,8 @@ main {
     font-size: 1.2rem;
 }
 .adjectives {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -172,12 +171,14 @@ main {
 footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 
 }
 .footer {
     list-style: none;
     color: #DDDDDD;
+    margin: 40px;
     
 }
 
@@ -188,10 +189,11 @@ footer {
 
 .socialmedia__icons {
     margin-right: 2vw;
+    text-decoration: none;
     
 }
 .socialmedia__icons img:hover {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
 @media only screen and (max-width: 1000px) {
@@ -269,5 +271,17 @@ footer {
     h1 {
         font-size: 5vw;
         margin-top: 12vw;
+    }
+    .adjectives {
+        font-size: 0.8rem;
+    }
+    .footer {
+        font-size: 0.9rem;
+    }
+    .socialmedia__icons {
+        display: flex;
+        flex-direction: column;
+
+
     }
 }
