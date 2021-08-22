@@ -1,8 +1,5 @@
 .homepage_img {
     background-image: url(../images/Homepage_background_min.jpg);
-}
-
-html body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,7 +8,6 @@ html body {
     margin: 0;
     padding: 0;
 }
-
 
 .mainlogo {
     display: flex;
