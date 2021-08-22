@@ -27,7 +27,6 @@ html body{
     display: flex;
     justify-content: center;
     background-color: #0A3641;
-    padding: 2px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
     
@@ -40,7 +39,6 @@ html body{
     padding: 10px;
     color: #DDDDDD;
     text-decoration: none;
-    
 }
 
 label {
@@ -69,12 +67,12 @@ label {
 .fa {
     font-size: 1.3rem;
     padding-bottom: 9px;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 .fas {
     font-size: 1.3rem;
-    margin-top: 15px;
+    margin-top: 13px;
     padding-bottom: 10px;
 
 }
@@ -83,7 +81,7 @@ label {
     border-bottom: 2px solid #DDDDDD;
     
 }
-.nav a:hover {
+a:hover {
     border-bottom: 2px solid;
 }
 
@@ -192,7 +190,8 @@ footer {
 @media only screen and (max-width: 1000px) {
     .nav {
         display: flex;
-        justify-content: space-between
+        justify-content:center ;
+     
     }
     
     label {
@@ -203,7 +202,7 @@ footer {
     }
     .menu {
         text-align: center;
-        width: 10%;
+    
         display: none;
         z-index: ;
     }
