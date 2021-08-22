@@ -240,7 +240,7 @@ footer {
         display: flex ;
         cursor: pointer;
         width: 100%;
-        margin: 0;
+        margin-top: 10px;
         position:absolute;
         background-color: #0A3641;
         z-index: 10;
