@@ -225,7 +225,32 @@ footer {
 .socialmedia__icons img:hover {
     margin-bottom: 5px;
   }
+/** styling for contact.html**/
+.contact__social_media {
+    color: #DDDDDD;
+    margin-left: 5vw;
+}
 
+.h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: #DDDDDD;
+    text-decoration: underline;
+}
+.social_media a{
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    color: #DDDDDD;
+    text-decoration: none;
+
+}
+
+.footer_about {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 /** media queries**/
 
