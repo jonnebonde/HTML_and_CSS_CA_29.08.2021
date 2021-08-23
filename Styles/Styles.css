@@ -1,3 +1,8 @@
+html body {
+    margin:0 ;
+    padding: 0;
+}
+
 .homepage_img {
     background-image: url(../images/Homepage_background_min.jpg);
     background-repeat: no-repeat;
@@ -8,7 +13,16 @@
     margin: 0;
     padding: 0;
 }
-
+.women_background_img {
+    background-image: url(../);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .mainlogo {
     display: flex;
     justify-content: center;
