@@ -302,6 +302,7 @@ footer {
 
 
 @media only screen and (max-width: 759px) {
+    
     .nav {
         display: flex;
         justify-content:center;
@@ -312,6 +313,7 @@ footer {
     h1 {
         margin-top: 8vw;
     }
+
     .featured_products {
     display: grid;
     grid-gap: 40px; 
@@ -320,6 +322,7 @@ footer {
     justify-content: center;
 
     }
+
     label {
         font-size: 5vw;
         display: flex ;
@@ -330,7 +333,6 @@ footer {
         background-color: #0A3641;
         z-index: 10;
         
- 
     }
     .menu {
         text-align: center;
@@ -345,14 +347,11 @@ footer {
         margin-right: 0;
         color:#DDDDDD;
         
-        
-        
     }
     #toggle:checked + .menu {
         display: flex;
         flex-direction: column;
         
-
     }
     
 }
@@ -379,7 +378,6 @@ footer {
     .socialmedia__icons {
         display: flex;
         flex-direction: column;
-
 
     }
 }
