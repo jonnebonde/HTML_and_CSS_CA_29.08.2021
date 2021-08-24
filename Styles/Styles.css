@@ -83,10 +83,6 @@ label {
     font-size: 1.2rem;
 }
 
-.cart_cta {
-    font-size: 1.2rem;
-}
-
 .fa {
     font-size: 1.3rem;
     padding-bottom: 9px;
@@ -95,18 +91,17 @@ label {
 
 .fas {
     font-size: 1.3rem;
-    margin-top: 13px;
-    padding-bottom: 10px;
+    margin-top: 5px;
+    padding-bottom: 1px;
 
 }
 
 .active {
     border-bottom: 2px solid #DDDDDD;
-    
 }
+
 .menu a:hover {
-    border-bottom: 2px solid;
-    
+    border-bottom: 2px solid;  
 }
 
 .fa:hover {
@@ -116,6 +111,7 @@ label {
 .fas:hover {
     border-bottom: 2px solid #DDDDDD;
 }
+
 .text-price:hover {
     border-bottom:  2px solid #DDDDDD;
 
@@ -254,6 +250,30 @@ footer {
     opacity: 90%;
 }
 
+/** styling for about.html **/
+
+.about_html {
+    background-color: #DDDDDD;
+}
+.about_main {
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+
+}
+.about_section1, .about_section2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    max-width: 540px;
+    margin: 0 1% 0 1%;
+}
+.about_img {
+    border: solid 1px #0A3641;
+    border-radius: 7px;
+    max-width: 100%;
+}
+
 /** media queries**/
 
 @media only screen and (max-width: 1000px) {
@@ -267,6 +287,19 @@ footer {
     
     }
 }
+
+@media only screen and (max-width: 850px) {
+    .about_main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_section1 {
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    
+
 
 @media only screen and (max-width: 759px) {
     .nav {
