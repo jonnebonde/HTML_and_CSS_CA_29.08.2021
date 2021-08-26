@@ -247,7 +247,7 @@ footer {
 
 }
 
-.footer_about {
+.footer_contact {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -277,6 +277,14 @@ footer {
     border: solid 1px #0A3641;
     border-radius: 7px;
     max-width: 100%;
+}
+
+.footer_about {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 16%;
+
 }
 
 /**styling for product.html **/
