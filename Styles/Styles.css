@@ -116,6 +116,11 @@ label {
     border-bottom:  2px solid #DDDDDD;
 
 }
+
+.product_number_cta i:hover {
+    border: none;
+}
+
 form {
     margin-left: 20px;
 }
@@ -218,7 +223,7 @@ footer {
     
 }
 .socialmedia__icons img:hover {
-    margin-bottom: 5px;
+    
   }
 /** styling for contact.html**/
 
@@ -282,20 +287,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.product_border {
     border: solid #DDDDDD;
     background-color: #DDDDDD;
+    padding-bottom: 100px;
+}
+
+.product_image{
+    margin: 1vw 0 0 0;
+    max-width: 100%;
+    border: 2px solid #0A3641;
     border-radius: 3px;
-    padding: 5px;
-    width: auto;
-    
-}
-.product_img {
-    margin: 2vw 0 0 0;
-}
-.product_img {
-    width:auto;
+    margin-right: 30px;
 }
 
 .product_text p{
@@ -374,7 +376,6 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    opacity: 90%;
 }
 
 
@@ -407,9 +408,9 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 10vw;
+    padding-bottom: 5vw;
 }
-.product_img, img {
+.product_img img {
     margin: 4vw;
     width: auto;
 }
@@ -417,7 +418,7 @@ footer {
     position: absolute;
     bottom: auto;
     width: 100%;
-    opacity: 90%;
+    
 }
 .product_size_cta button{
     font-size: 1rem;
@@ -487,10 +488,9 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 10vw;
     }
     .product_img, img {
-        margin: 4vw;
+        margin: 3vw;
         width: 65%;
 
     }
@@ -498,7 +498,6 @@ footer {
         position: absolute;
         bottom: auto;
         width: 100%;
-        opacity: 90%;
     }
     .product_size_cta button{
         font-size: 1rem;
@@ -511,6 +510,13 @@ footer {
     }
     .add_to_cart_cta button {
         font-size: 1.2rem;
+    }
+
+    .socialmedia__icons {
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+
     }
 }
 
@@ -538,5 +544,10 @@ footer {
         flex-direction: column;
         height: 70%;
 
+    }
+
+    .product_main {
+        padding-bottom: 30px;
+        margin-bottom: 0;
     }
 }
