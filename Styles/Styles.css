@@ -393,6 +393,8 @@ footer {
     grid-template-rows: repeat(3,1fr);
     grid-gap: 1vw;
     border-bottom: 2px solid #0A3641;
+    background-color: #ffff;
+    border-radius: 3px;
 }
 
 .cart_top_labels {
@@ -608,6 +610,22 @@ footer {
         font-size: 1.2rem;
     }
 
+    .cart_main {
+        margin-top: 8vw;
+        padding-bottom: 200px;
+    }
+    .cart_cta {
+        grid-template-columns: repeat(8,1fr);
+    }
+    .cart_cta_shopping {
+        grid-column-start: 3;
+        grid-column-end:5 ;
+    }
+
+    .cart_cta_checkout {
+        grid-column-start: 7;
+        grid-column-end: 8;
+    }
     .socialmedia__icons {
         display: flex;
         flex-direction: column;
@@ -621,8 +639,8 @@ footer {
     .featured_products {
         display: grid;
         grid-gap: 40px; 
-        grid-template-rows: repeat(6, 200px);
-        grid-template-columns: repeat(1, 200px);
+        grid-template-rows: repeat(4, 150px);
+        grid-template-columns: repeat(2, 150px);
         justify-content: center;
     }
     h1 {
