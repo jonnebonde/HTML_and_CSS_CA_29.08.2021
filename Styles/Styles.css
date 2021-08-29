@@ -252,7 +252,6 @@ footer {
     bottom: 0;
     width: 100%;
     height: 20%;
-    padding-bottom: 20px;
 }
 
 /** styling for about.html **/
@@ -476,7 +475,7 @@ footer {
 }
 
 .cart_footer {
-    position: absolute;
+   
     bottom: 0;
     width: 100%;
 }
