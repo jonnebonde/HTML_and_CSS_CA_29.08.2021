@@ -17,7 +17,7 @@
                 <img class="mainlogo_img" src="images/RainyDays_Logo.png" alt="Rainy Days Logo" >
             </a>
 <div class="nav">
-                <label for="toggle">&#9776</label>
+                <label class="hamburger_label" for="toggle">&#9776</label>
                 <input type="checkbox" id="toggle">
             <div class="menu">       
                 <a class="active" href="index.html">Home</a> 
@@ -40,39 +40,84 @@
     </div>
 </div>
     </header>
-<main>
-     <h1>Shipping details</h1>
-    <div class="Checkout_shipping_details">
-        <div>
-        <label class="checkout_label"  for="fullname">Fullname</label>
-        <input type="text" class="checkout_input" id="fullname" placeholder="...">
-        </div>
-            <div>
-            <label class="checkout_label"  for="fullname">Fullname</label>
-            <input type="text" class="checkout_input" id="fullname" placeholder="...">
+<main>    
+    <div class="Checkout_details">
+        <div class="checkout_shipping_details">
+            <div class="checkout_h2">
+                <h2>Shipping details</h2>
             </div>
+        <div class="checkout_shipping_wrap">   
+            <div class="checkout_shipping_column_1">            
                 <div>
-                <label class="checkout_label"  for="fullname">Fullname</label>
-                <input type="text" class="checkout_input" id="fullname" placeholder="...">
+                    <label class="checkout_label"  for="firstname">First name</label>
+                    <input type="text" class="checkout_input" id="firstname" placeholder="type here...">
                 </div>
-                    <div>
-                    <label class="checkout_label"  for="fullname">Fullname</label>
-                    <input type="text" class="checkout_input" id="fullname" placeholder="...">
-                    </div>
-                        <div>
-                        <label class="checkout_label"  for="fullname">Fullname</label>
-                        <input type="text" class="checkout_input" id="fullname" placeholder="...">
-                        </div>
-                            <div>
-                            <label class="checkout_label"  for="fullname">Fullname</label>
-                            <input type="text" class="checkout_input" id="fullname" placeholder="...">
-                            </div>
-      
-
+                <div>
+                    <label class="checkout_label"  for="email">Email</label>
+                    <input type="email" class="checkout_input" id="email" placeholder="type here...">
+                </div>
+                <div>
+                    <label class="checkout_label"  for="country">Country</label>
+                    <input type="text" class="checkout_input" id="country" placeholder="type here...">
+                </div>
+            </div> 
+            <div class="checkout_shipping_column_2">
+                <div>
+                    <label class="checkout_label"  for="lastname">Last name</label>
+                    <input type="text" class="checkout_input" id="lastname" placeholder="type here...">
+                </div>
+                <div>
+                    <label class="checkout_label"  for="street_address">Street address</label>
+                    <input type="text" class="checkout_input" id="street_address" placeholder="type here...">
+                </div>
+                <div>
+                    <label class="checkout_label"  for="zipcode">Zip code</label>
+                    <input type="text" class="checkout_input" id="zipcode" placeholder="type here...">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="checkout_payment_details">
+           
+            <div class="checkout_payment_column_1">
+                <div class="checkout_h2">
+                    <h2>Payment details</h2>
+                </div>
+                <div class="checkout_payment_logo">
+                    <label class="checkout_label">Accepted  payment methods</label>
+                    <i class="fa fa-cc-visa"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                    <i class="fab fa-cc-amazon-pay"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-google-pay"></i>
+                   
+                  </div>
+                <div>
+                    <label class="checkout_label"  for="name_on_card">Name on card</label>
+                    <input type="text" class="checkout_input_p" id="name_on_card" placeholder="type here...">
+                </div>
+                <div>
+                    <label class="checkout_label"  for="cardnumber">Card number</label>
+                    <input type="text" class="checkout_input_p" id="cardnumber" placeholder="type here...">
+                </div>
+            </div>
+            <div class="checkout_payment_column_2">
+                <div>
+                    <label class="checkout_label_valid"  for="vaild_through">Valid through</label>
+                    <input type="text" class="checkout_input_v" id="valid_through" placeholder="type here...">
+                </div>
+                <div>
+                    <label class="checkout_label_cvc"  for="cvc_code">CVC code</label>
+                    <input type="text" class="checkout_input_v" id="cvc_code" placeholder="type here...">
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="checkout_finish_order_cta">
+    <a href="*">FINISH ORDER</a>
+</div>  
 </main>
-    <footer class="checkout_footer">
-            
+    <footer>  
             <div class="footer">
                 <p>Phone: +47 1234 5678</p>
                 <p>Addresse: Here, There and Everywhere</p>
@@ -88,8 +133,7 @@
                 <a href="http://instagram.com">
                     <img src="images/instagram_logo2.png" alt="link to instagram.com"/>
                 </a>
-            </div>
-        
+            </div>       
     </footer>
 </body>
 </html>
