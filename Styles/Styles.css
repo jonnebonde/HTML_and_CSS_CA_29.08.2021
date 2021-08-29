@@ -1,7 +1,6 @@
 html body {
     margin:0 ;
     padding: 0;
-    min-height: 100vh;
 }
 .main_img {
     background-image: url(../images/main_img.jpg);
@@ -253,6 +252,13 @@ footer {
 
 }
 
+.contact_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
+
 
 /** styling for about.html **/
 
@@ -278,11 +284,11 @@ footer {
     max-width: 100%;
 }
 
-.footer_about {
+.about_footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 16%;
+    height: 10%;
 
 }
 
@@ -473,7 +479,11 @@ footer {
     text-decoration: none;
     color: #DDDDDD;
 }
-
+.cart_footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+}
 
 /** Styling for checkout.html**/
 
@@ -558,7 +568,7 @@ footer {
 }
 .checkout_footer {
     position: absolute;
-  
+    bottom: 0;
     width: 100%;
 }
 
@@ -697,6 +707,38 @@ footer {
         margin: 3vw;
         width: 65%;
 
+    }
+    footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 10%;
+    }
+
+    .contact_footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 25%;
+    }
+   
+    .about_footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    
+    }
+
+    .cart_footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .checkout_footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
     }
     .product_footer {
         position: absolute;
