@@ -110,29 +110,6 @@
     border-bottom: 2px solid var(--silver);
 }
 
-/** Hover effects**/
-
-.menu a:hover {
-    border-bottom: 2px solid;  
-}
-
-.fa:hover {
-    border-bottom: 2px solid var(--silver);
-}
-
-.fas:hover {
-    border-bottom: 2px solid var(--silver);
-}
-
-.text-price:hover {
-    border-bottom:  2px solid var(--silver);
-
-}
-
-.product_number_cta i:hover {
-    border: none;
-}
-
 form {
     margin-left: 20px;
 }
@@ -234,6 +211,29 @@ footer {
 .socialmedia__icons {
     margin-right: 2vw;
     text-decoration: none;
+}
+
+/** Hover effects**/
+
+.menu a:hover {
+    border-bottom: 2px solid;
+     
+}
+
+.fa:hover {
+    border-bottom: 2px solid var(--silver);
+}
+
+.fas:hover {
+    border-bottom: 2px solid var(--silver);
+}
+
+.text-price:hover {
+    border-bottom:  2px solid var(--silver);
+}
+
+.product_number_cta i:hover {
+    border: none;
 }
 
 /** styling for contact.html**/
