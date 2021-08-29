@@ -1,8 +1,8 @@
 :root {
     --green: #0A3641;
     --silver: #DDDDDD;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 * {
     margin:0 ;
@@ -52,7 +52,7 @@
     display: flex;
     justify-content: center;
     background-color: var(--green);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     font-size: 1.2rem;
     opacity: 95%;
    
@@ -138,7 +138,7 @@ form {
 }
 
 input {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     font-size: 1rem;
     font-weight: 400;
     border: none;
@@ -155,7 +155,7 @@ button {
 }
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     font-size: 2.5rem;
     text-align: center;
     color: var(--green); 
@@ -185,7 +185,7 @@ h1 {
 }
 
 .text-price {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     text-decoration: none;
     color: var(--silver);
     border: solid var(--green);
@@ -197,7 +197,7 @@ h1 {
 }
 
 .adjectives {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     font-size: 1.2rem;
     display: flex;
     justify-content: space-evenly;
@@ -246,7 +246,7 @@ footer {
 }
 
 .h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     text-align: left;
     color: var(--silver);
     text-decoration: underline;
@@ -402,7 +402,7 @@ footer {
     border-bottom: 2px solid var(--green);
     background-color: #ffff;
     border-radius: 3px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     font-size: 1rem;
 }
 
@@ -414,7 +414,7 @@ footer {
     margin: 0 1vw 1vw 1vw;
     align-items: center;
     border-bottom: 2px var(--green) solid;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -427,7 +427,7 @@ footer {
 .cart_total {
     display: grid;
     grid-template-columns: repeat(15,1fr);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     
+    font-family: var(--font-family);     
 }
 
 .cart_total_label {
@@ -448,7 +448,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(15,1fr);
     margin-top: 1vw;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
 }
 
 .cart_cta_shopping{
