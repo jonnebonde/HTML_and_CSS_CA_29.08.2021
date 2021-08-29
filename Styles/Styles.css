@@ -1,3 +1,9 @@
+:root {
+    --green: #0A3641;
+    --silver: #DDDDDD;
+}
+
+
 * {
     margin:0 ;
     padding: 0;
@@ -45,7 +51,7 @@
 .nav {
     display: flex;
     justify-content: center;
-    background-color: #0A3641;
+    background-color: var(--green);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
     opacity: 95%;
@@ -62,7 +68,7 @@
 
 .menu a{
     padding: 10px;
-    color: #DDDDDD;
+    color: var(--silver);
     text-decoration: none;
     position: relative;
 }
@@ -70,7 +76,7 @@
 .hamburger_label {
     
     font-size: 1.5em;
-    color: #DDDDDD;
+    color: var(--silver);
     display: none;
 }
 
@@ -101,7 +107,7 @@
 }
 
 .active {
-    border-bottom: 2px solid #DDDDDD;
+    border-bottom: 2px solid var(--silver);
 }
 
 /** Hover effects**/
@@ -111,15 +117,15 @@
 }
 
 .fa:hover {
-    border-bottom: 2px solid #DDDDDD;
+    border-bottom: 2px solid var(--silver);
 }
 
 .fas:hover {
-    border-bottom: 2px solid #DDDDDD;
+    border-bottom: 2px solid var(--silver);
 }
 
 .text-price:hover {
-    border-bottom:  2px solid #DDDDDD;
+    border-bottom:  2px solid var(--silver);
 
 }
 
@@ -141,8 +147,8 @@ input {
 }
 
 button {
-    color: #DDDDDD;
-    background-color: #0A3641;
+    color: var(--silver);
+    background-color: var(--green);
     border: none;
     cursor: pointer;
     margin-top: 10px;
@@ -152,7 +158,7 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2.5rem;
     text-align: center;
-    color: #0A3641; 
+    color: var(--green); 
 }
 
 .featured_products {
@@ -167,7 +173,6 @@ h1 {
 .product_container {
     text-align: center;
     max-width: 400px;
-    max-height: ;
 }   
 
 .product_img {
@@ -176,16 +181,16 @@ h1 {
     padding: 0;
     max-width: 100%;
     border-radius: 5px;
-    border: solid #0A3641 2px;
+    border: solid var(--green) 2px;
 }
 
 .text-price {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    color: #DDDDDD;
-    border: solid #0A3641;
+    color: var(--silver);
+    border: solid var(--green);
     border-radius: 6px;
-    background-color: #0A3641;
+    background-color: var(--green);
     opacity: 90%;
     font-size: 1.5rem;
     font-weight: 400;
@@ -196,11 +201,11 @@ h1 {
     font-size: 1.2rem;
     display: flex;
     justify-content: space-evenly;
-    border: #0A3641 solid;
-    background-color: #0A3641;
+    border: var(--green) solid;
+    background-color: var(--green);
     opacity: 90%;
     text-align: center;
-    color: #DDDDDD;
+    color: var(--silver);
     margin-top: 4vw;
 }
 
@@ -208,7 +213,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0A3641;
+    background-color: var(--green);
     position: relative;
     bottom: 0;
     width: 100%;
@@ -217,12 +222,12 @@ footer {
 
 .footer {
     list-style: none;
-    color: #DDDDDD;
+    color: var(--silver);
     margin: 40px;
 }
 
 .email-link {
-    color: #DDDDDD;
+    color: var(--silver);
     text-decoration: none;
 }
 
@@ -236,14 +241,14 @@ footer {
 .contact__social_media {
     display: flex;
     flex-direction: column;
-    color: #DDDDDD;
+    color: var(--silver);
     margin-left: 5vw;
 }
 
 .h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
-    color: #DDDDDD;
+    color: var(--silver);
     text-decoration: underline;
 }
 
@@ -251,7 +256,7 @@ footer {
     font-size: 1.4rem;
     display: flex;
     flex-direction: column;
-    color: #DDDDDD;
+    color: var(--silver);
     text-decoration: none;
 }
 
@@ -265,7 +270,7 @@ footer {
 /** styling for about.html **/
 
 .about_html {
-    background-color: #DDDDDD;
+    background-color: var(--silver);
 }
 
 .about_main {
@@ -283,7 +288,7 @@ footer {
 }
 
 .about_img {
-    border: solid 1px #0A3641;
+    border: solid 1px var(--green);
     border-radius: 7px;
     max-width: 100%;
 }
@@ -301,15 +306,15 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid #DDDDDD;
-    background-color: #DDDDDD;
+    border: solid var(--silver);
+    background-color: var(--silver);
     padding-bottom: 100px;
 }
 
 .product_image{
     margin: 1vw 0 0 0;
     max-width: 100%;
-    border: 2px solid #0A3641;
+    border: 2px solid var(--green);
     border-radius: 3px;
     margin-right: 30px;
 }
@@ -337,9 +342,9 @@ footer {
 }
 
 .product_number_cta input {
-    border: 3px solid #0A3641;
-    color: #DDDDDD;
-    background-color: #0A3641;
+    border: 3px solid var(--green);
+    color: var(--silver);
+    background-color: var(--green);
     font-size: 1.3rem;
     margin: 0;
     width: auto;
@@ -384,7 +389,7 @@ footer {
 /** Styling for shopping-cart.html**/
 
 .cart_main {
-    background-color: #DDDDDD;
+    background-color: var(--silver);
     padding-bottom: 100px;
 }
 
@@ -394,7 +399,7 @@ footer {
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(3,1fr);
     grid-gap: 1vw;
-    border-bottom: 2px solid #0A3641;
+    border-bottom: 2px solid var(--green);
     background-color: #ffff;
     border-radius: 3px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -408,14 +413,14 @@ footer {
     grid-gap: 1vw;
     margin: 0 1vw 1vw 1vw;
     align-items: center;
-    border-bottom: 2px #0A3641 solid;
+    border-bottom: 2px var(--green) solid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
 .cart_product_img {
-    border: 1px #0A3641 solid;
+    border: 1px var(--green) solid;
     border-radius: 4px;
 }
 
@@ -428,15 +433,15 @@ footer {
 .cart_total_label {
     grid-column-start: 12;
     grid-column-end: 12;
-    border-left: 2px #0A3641 solid;
-    border-bottom: 2px #0A3641 solid;
+    border-left: 2px var(--green) solid;
+    border-bottom: 2px var(--green) solid;
 }   
 
 .cart_total_variables {
     grid-column-start: 13;
     grid-column-end: 13;
-    border-right: 2px #0A3641 solid;
-    border-bottom: 2px #0A3641 solid;
+    border-right: 2px var(--green) solid;
+    border-bottom: 2px var(--green) solid;
 }
 
 .cart_cta {
@@ -450,32 +455,32 @@ footer {
     grid-column-start: 7;
     grid-column-end: 10;
     justify-self: center;
-    border: 2px #0A3641 solid;
+    border: 2px var(--green) solid;
     border-radius: 3px;
-    background-color: #0A3641;
-    color: #DDDDDD;
+    background-color: var(--green);
+    color: var(--silver);
     padding: 10px;
 }
 
 .cart_cta_shopping a {
     text-decoration: none;
-    color: #DDDDDD; 
+    color: var(--silver); 
 }
 
 .cart_cta_checkout{
     grid-column-start: 13;
     grid-column-end: 13;
     justify-self: center;
-    border: 2px #0A3641 solid;
+    border: 2px var(--green) solid;
     border-radius: 3px;
-    background-color: #0A3641;
-    color: #DDDDDD;
+    background-color: var(--green);
+    color: var(--silver);
     padding: 10px;
 }
 
 .cart_cta_checkout a {
     text-decoration: none;
-    color: #DDDDDD;
+    color: var(--silver);
 }
 
 .cart_footer {
@@ -490,14 +495,14 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 5vw 0 10px 0;
-    background-color: #DDDDDD;
+    background-color: var(--silver);
 }
 
 .Checkout_details {
     display: flex;
     justify-content: space-evenly;
     padding:20px;
-    background-color: #DDDDDD; 
+    background-color: var(--silver); 
 }
 
 .checkout_shipping_details {
@@ -522,18 +527,18 @@ footer {
 .checkout_label, .checkout_label_valid, .checkout_label_cvc {
     display: block;
     font-size: 1.1rem;
-    color: #0A3641;
+    color: var(--green);
 }
 
 .checkout_input, .checkout_input_p {
-    border: #0A3641 2px solid;
+    border: var(--green) 2px solid;
     padding: 5px;
     margin: 10px;
     width: 80%;
 }
 
 .checkout_input_v {
-    border: #0A3641 2px solid;
+    border: var(--green) 2px solid;
     padding: 5px;
     margin: 10px;
     width: 60%;
@@ -541,7 +546,7 @@ footer {
 
 .checkout_payment_logo i {
     font-size: 2rem;
-    color: #0A3641;
+    color: var(--green);
 }
 
 
@@ -549,15 +554,15 @@ footer {
     display: flex;
     justify-content: center;
     padding: 10px;
-    background-color: #DDDDDD;
+    background-color: var(--silver);
 }
 
 .checkout_finish_order_cta a {
     padding: 10px;
-    border: 2px #0A3641 solid;
+    border: 2px var(--green) solid;
     border-radius: 3px;
-    background-color: #0A3641;
-    color: #DDDDDD;
+    background-color: var(--green);
+    color: var(--silver);
     text-decoration: none;
 }
 
@@ -638,7 +643,7 @@ footer {
     .nav {
         display: flex;
         justify-content:center;
-        background-color: #0A3641;
+        background-color: var(--green);
     }
 
     .product_main, h1 {
@@ -660,7 +665,7 @@ footer {
         width: 100%;
         margin-top: 10px;
         position:absolute;
-        background-color: #0A3641;
+        background-color: var(--green);
         margin-bottom: 10px;
     }
     .menu {
@@ -672,7 +677,7 @@ footer {
     .menu a {
         display: block;
         margin-right: 0;
-        color:#DDDDDD;
+        color:var(--silver);
     }
 
     #toggle:checked + .menu {
@@ -776,7 +781,7 @@ footer {
     .checkout_label label {
         display: block;
         font-size: 1.1rem;
-        color: #0A3641;
+        color: var(--green);
     }
 }
 
