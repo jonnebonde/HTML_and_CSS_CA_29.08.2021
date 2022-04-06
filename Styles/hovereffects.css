@@ -1,0 +1,19 @@
+.menu a:hover {
+    border-bottom: 2px solid;
+}
+
+.fa:hover {
+    border-bottom: 2px solid var(--silver);
+}
+
+.fas:hover {
+    border-bottom: 2px solid var(--silver);
+}
+
+.text-price:hover {
+    border-bottom:  2px solid var(--silver);
+}
+
+.product_number_cta i:hover {
+    border: none;
+}

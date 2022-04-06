@@ -1,0 +1,30 @@
+.about_html {
+    background-color: var(--silver);
+}
+
+.about_main {
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+}
+
+.about_section1, .about_section2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    max-width: 540px;
+    margin: 0 1% 0 1%;
+}
+
+.about_img {
+    border: solid 1px var(--green);
+    border-radius: 7px;
+    max-width: 100%;
+}
+
+.about_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}

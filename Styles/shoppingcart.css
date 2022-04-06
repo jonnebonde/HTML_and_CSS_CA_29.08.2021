@@ -1,0 +1,100 @@
+.cart_main {
+    background-color: var(--silver);
+    padding-bottom: 100px;
+}
+
+.cart_top_labels {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 1vw;
+    margin: 0 1vw 1vw 1vw;
+    align-items: center;
+    border-bottom: 2px var(--green) solid;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.cart_product-info{
+    margin: 0 1vw 0 1vw;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 1vw;
+    border-bottom: 2px solid var(--green);
+    background-color: #ffff;
+    border-radius: 3px;
+    font-family: var(--font-family);
+    font-size: 1rem;
+}
+
+.cart_product_img {
+    border: 1px var(--green) solid;
+    border-radius: 4px;
+}
+
+.cart_total {
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+    font-family: var(--font-family);     
+}
+
+.cart_total_label {
+    grid-column-start: 12;
+    grid-column-end: 12;
+    border-left: 2px var(--green) solid;
+    border-bottom: 2px var(--green) solid;
+}   
+
+.cart_total_variables {
+    grid-column-start: 13;
+    grid-column-end: 13;
+    border-right: 2px var(--green) solid;
+    border-bottom: 2px var(--green) solid;
+}
+
+.cart_cta {
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+    margin-top: 1vw;
+    font-family: var(--font-family);
+}
+
+.cart_cta_shopping{
+    grid-column-start: 7;
+    grid-column-end: 10;
+    justify-self: center;
+    border: 2px var(--green) solid;
+    border-radius: 3px;
+    background-color: var(--green);
+    color: var(--silver);
+    padding: 10px;
+}
+
+.cart_cta_shopping a {
+    text-decoration: none;
+    color: var(--silver); 
+}
+
+.cart_cta_checkout{
+    grid-column-start: 13;
+    grid-column-end: 13;
+    justify-self: center;
+    border: 2px var(--green) solid;
+    border-radius: 3px;
+    background-color: var(--green);
+    color: var(--silver);
+    padding: 10px;
+}
+
+.cart_cta_checkout a {
+    text-decoration: none;
+    color: var(--silver);
+}
+
+.cart_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
